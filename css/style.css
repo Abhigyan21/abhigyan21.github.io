@@ -1,0 +1,134 @@
+/* CSS Document */
+body{
+	font-family: 'Oswald', sans-serif !important;
+	word-wrap:break-word;
+}
+
+h1{
+	font-weight: 700 !important;
+	font-size: 4em;
+}
+
+h2{
+	font-weight: 500 !important;
+	padding: 2% 2% 2% 0%;	
+}
+
+.date{
+	
+	font-size: 1.5em;	
+}
+
+.navbar-collapse{
+	border-top: 0 !important;
+}
+
+.list-group-item{
+	width: 70%;
+	background-color: #edf3fc;
+}
+
+p{
+	max-width: 70%;
+	font-size: 1.5em;	
+	font-weight: 300 !important;
+}
+
+h4{
+	font-size: 3rem;
+	padding: 0% 1% 1% 0%;
+	margin-top: -4%;
+	font-weight: 400 !important;
+}
+
+.projects{
+	margin-top: 0;	
+}
+
+a{
+	word-wrap:break-word;
+}
+
+#about, #experience, #education{
+border-bottom: 1px solid #000000;	
+}
+
+.navbar-inverse{
+	background-color: #4286f4 !important;	
+}
+
+.subhead{
+	margin-bottom: 2%;
+}
+
+.nav > li > a{
+	color: white !important;
+	font-size: 2rem;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+    display: block;
+	font-weight: 600;
+    text-transform: uppercase;
+	padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.container{
+	height:1000px;
+	padding-top:20rem;
+	padding-bottom: 20rem;
+}
+
+.wrapper {
+  margin-left: 200px;	
+ 
+}
+
+@media only screen and (min-width: 768px){
+	.navbar-collapse{
+		margin-top: 30vh;
+	}
+	
+	.container{
+		width: auto !important;
+		height: 1000px;
+		padding-top:30rem;
+		padding-bottom: 30rem;
+	}
+	
+	.navbar-fixed-left {
+		text-align: center;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 160px;
+		height:1000px;
+		border-radius: 0px;
+	}
+	
+	img{
+		margin-left: 5%;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.wrapper {
+  		margin-left: 5%;
+	}
+	
+	.date{
+		text-align: left;
+	}
+	
+	.navbar-fixed-left{
+		flex-direction: row;
+	}
+	
+	h4{
+	font-size: 3rem;
+	padding: 0% 1% 1% 0%;
+		margin-top: 0%;
+	}	
+	
+}
